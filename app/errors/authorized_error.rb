@@ -1,0 +1,1 @@
+AuthorizedError = Class.new(StandardError)

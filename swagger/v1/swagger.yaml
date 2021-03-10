@@ -1,0 +1,28 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/v1/users":
+    get:
+      summary: Get list of users
+      tags:
+      - Users
+      consumes:
+      - application/json
+      responses:
+        '200':
+          description: pet created
+    post:
+      summary: Creates a user
+      tags:
+      - Users
+      consumes:
+      - application/json
+      - application/xml
+      responses:
+        '201':
+          description: pet created
+        '422':
+          description: invalid request

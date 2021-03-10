@@ -1,0 +1,1 @@
+TokenError = Class.new(StandardError)
